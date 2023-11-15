@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Bengkel</title>
+</head>
+<style>
+ body {
+    font-family: Arial, sans-serif;
+  }
+ form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .putih{
+    height: 150px;
+    width: 150px;
+    border: 1px dotted;
+    background-color: orange;}
+  .menu{
+    list-style: none;
+  }
+  </style>
+<body>
+    <fieldset>
+    <legend><h1>Kelola Montir/Mekanik</h1></legend>
+    </div>
+    <form action="" method="post">
+    <label for="">Nama Mekanik : </label>
+    <input type="text" name="username">
+    <br>
+    <br>
+    <label for="count">Kategori : </label>
+    <select>
+     <option>Senior Mekanik</option>
+     <option value="2">2</option>
+     <option>3</option>
+     <option>4</option>
+     <option>5</option>
+    </select>
+    <br>
+    <br>
+    <label for="">Deskripsi skill : </label>
+    <input type="text">
+    <br>
+    <br>
+    <label>Kemampuan : </label>
+    <label for="">Servive ringan</label>
+    <input type="checkbox" id="Service ringan">
+    <label for="">Servive besar</label>
+    <input type="checkbox" id="Service besar">
+    <label for="">Body repair</label>
+    <input type="checkbox" id="Body repair">
+    <br>
+    <br>
+    <label for="">Tempat, Tanggal Lahir : </label>
+    <input type="text">
+    <input type="date">
+    <br>
+    <br>
+    <label for="">Telepon : </label>
+    <input type="number">
+    <br>
+    <br>
+        <button type="submit">Simpan</button>
+        <button type="reset">Reset</button>
+    </form>
+    <div class="putih">Foto</div>
+    <ul>
+        <div class="menu">
+        <li><a href="#upload foto">Upload Foto</a></li>
+        </div>
+    </ul>
+    </fieldset>
+</body>
+</html>
